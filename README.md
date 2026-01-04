@@ -2,6 +2,10 @@
 
 A [Next.js](https://nextjs.org) project template with special focus on SSG-first rendering.
 
+**Live Demo**: [https://nextjs-ssg-template.vercel.app/](https://nextjs-ssg-template.vercel.app/)
+
+**Author**: Malinga Pasindu
+
 ## Tech Stack
 
 | Package      | Version |
