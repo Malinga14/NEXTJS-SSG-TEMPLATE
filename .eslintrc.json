@@ -1,0 +1,11 @@
+{
+  "extends": ["next/core-web-vitals", "prettier"],
+  "plugins": ["unused-imports", "prettier"],
+  "rules": {
+    "no-unused-vars": "off",
+    "unused-imports/no-unused-imports": "warn",
+    "no-console": "warn",
+    "ban-ts-comment": 0,
+    "prettier/prettier": "error"
+  }
+}
