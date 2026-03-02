@@ -16,10 +16,18 @@
     "pre-commit": "lint-staged"
   },
   "dependencies": {
-    "next": "^15.5.9",
+    "@hookform/resolvers": "^5.2.2",
+    "@tanstack/react-query": "^5.90.21",
+    "next": "^15.5.12",
     "ogl": "^1.0.11",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.71.2",
+    "zod": "^4.3.6"
+  },
+  "overrides": {
+    "ajv": "6.14.0",
+    "minimatch": "3.1.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -28,7 +36,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "^15.5.9",
+    "eslint-config-next": "^15.5.12",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-prettier": "^5.4.1",
     "eslint-plugin-unused-imports": "^4.1.4",
